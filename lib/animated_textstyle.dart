@@ -33,7 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             AnimatedDefaultTextStyle(
               style: Theme.of(context).textTheme.display1.copyWith(
-                  color: _counter.isEven ? Colors.blue[100] : Colors.red[300]),
+                    color: _counter.isEven ? Colors.blue[100] : Colors.red[300],
+                    // fontFamily: _counter.isEven ? 'Arial' : 'Times New Roman',
+                    // fontSize: _counter.isEven ? 10 : 100,
+                  ),
               child: Text(
                 '$_counter',
               ),

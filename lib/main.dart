@@ -1,9 +1,9 @@
 // import 'package:animation_demo/tween_demo.dart';
 // import 'package:animation_demo/animated_textstyle.dart';
 // import 'package:animation_demo/animated_transition.dart';
-import 'package:animation_demo/animated_curves.dart';
-// import 'package:animation_demo/tween_demo.dart';
 // import 'package:animation_demo/animated_rotation.dart';
+// import 'package:animation_demo/animated_curves.dart';
+import 'package:animation_demo/flare_demo.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

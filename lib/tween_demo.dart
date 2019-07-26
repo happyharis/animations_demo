@@ -12,6 +12,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
+  // allows the animation to tick
   int _counter = 0;
   Animation animation;
   AnimationController animationController;
